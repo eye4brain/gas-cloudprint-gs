@@ -6,9 +6,6 @@ var REDIRECT_URL =prop.getProperty("oauthurl");
 var AUTHORIZE_URL = 'https://accounts.google.com/o/oauth2/auth'; 
 var TOKEN_URL = 'https://accounts.google.com/o/oauth2/token'; 
 
-var tokenPropertyName = 'GOOGLE_OAUTH_TOKEN'; 
-var baseURLPropertyName = 'GOOGLE_INSTANCE_URL'; 
-
 //認証作業画面のメインウィンドウ
 function doGet(e) {
   if(e.parameters.code){
