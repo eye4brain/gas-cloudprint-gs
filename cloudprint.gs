@@ -18,7 +18,7 @@ function getPrinterList() {
     var match = Regexp.exec(response);
     var code = match[1];
   }catch(e){
-  
+    Logger.log(e.message);
   }
   
   //エラーコードが返ってくる場合
