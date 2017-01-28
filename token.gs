@@ -2,7 +2,6 @@ var prop = PropertiesService.getScriptProperties();
 var CLIENT_ID = prop.getProperty("oauthclient");
 var CLIENT_SECRET=prop.getProperty("oauthsecret");
 var REDIRECT_URL =prop.getProperty("oauthurl");
-
 var AUTHORIZE_URL = 'https://accounts.google.com/o/oauth2/auth'; 
 var TOKEN_URL = 'https://accounts.google.com/o/oauth2/token'; 
 
